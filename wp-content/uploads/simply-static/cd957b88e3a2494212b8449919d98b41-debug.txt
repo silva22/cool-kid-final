@@ -1,0 +1,561 @@
+[2025-01-29 05:15:31] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-01-29 05:15:31] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-01-29 05:15:31] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-29 05:15:33] [class-ss-fetch-urls-task.php:69] Total pages: 0; Pages remaining: 0
+[2025-01-29 05:15:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 0 pages/files
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-01-29 05:15:33] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:0. Processed Pages: 0
+[2025-01-29 05:15:33] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 0 of 0 files
+[2025-01-29 05:15:33] [class-ss-transfer-files-locally-task.php:198] Transferring 404 Page
+[2025-01-29 05:15:33] [class-ss-transfer-files-locally-task.php:201] No 404 Page found at C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731\404\index.html
+[2025-01-29 05:15:33] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://silva22.github.io/cool-kid-final/" target="_blank">https://silva22.github.io/cool-kid-final/</a>
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-01-29 05:15:33] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-01-29 05:15:33] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-01-29 05:15:33] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-01-29 05:15:34] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-01-29 05:15:34] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-01-29 05:15:34] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-01-29 05:15:34] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731\
+[2025-01-29 05:15:34] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/cool-kid-final/
+[2025-01-29 05:15:34] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-01-29 05:15:34] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-29 05:15:34] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-29 05:15:34] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-01-29 05:15:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/
+[2025-01-29 05:15:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-01-29 05:15:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9763e2ff-nAvaEQ.tmp
+[2025-01-29 05:15:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/?simply_static_page=1
+[2025-01-29 05:15:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/?simply_static_page=1
+[2025-01-29 05:15:37] [class-ss-url-fetcher.php:103] Filesize: 106510 bytes
+[2025-01-29 05:15:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:15:37] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-01-29 05:15:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9763e2ff-nAvaEQ.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/index.html
+[2025-01-29 05:15:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:39] [class-ss-fetch-urls-task.php:158] Adding 27 URLs to the queue
+[2025-01-29 05:15:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:41] [class-ss-page.php:119] Checking Content Identical:36286c1566bb86dca77ab70cf7fdf93809007e1d===. Value: FALSE
+[2025-01-29 05:15:41] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-01-29 05:15:41] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-29 05:15:41] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-29 05:15:41] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-29 05:15:41] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 26
+[2025-01-29 05:15:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/login/
+[2025-01-29 05:15:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 27
+[2025-01-29 05:15:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b97d96f5e-tEUlT4.tmp
+[2025-01-29 05:15:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/login/?simply_static_page=2
+[2025-01-29 05:15:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/login/?simply_static_page=2
+[2025-01-29 05:15:45] [class-ss-url-fetcher.php:103] Filesize: 107183 bytes
+[2025-01-29 05:15:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:15:45] [class-ss-url-fetcher.php:233] New filename for static page: /login/index.html
+[2025-01-29 05:15:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b97d96f5e-tEUlT4.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/login/index.html
+[2025-01-29 05:15:45] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:46] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2025-01-29 05:15:46] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:46] [class-ss-page.php:119] Checking Content Identical:8dfc35c71631667476348d389abe99d3f6eb64cd===. Value: FALSE
+[2025-01-29 05:15:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/profile/
+[2025-01-29 05:15:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 27
+[2025-01-29 05:15:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9829d1ac-68Rit6.tmp
+[2025-01-29 05:15:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/profile/?simply_static_page=3
+[2025-01-29 05:15:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/profile/?simply_static_page=3
+[2025-01-29 05:15:48] [class-ss-url-fetcher.php:103] Filesize: 97241 bytes
+[2025-01-29 05:15:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:15:48] [class-ss-url-fetcher.php:233] New filename for static page: /profile/index.html
+[2025-01-29 05:15:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9829d1ac-68Rit6.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/profile/index.html
+[2025-01-29 05:15:48] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:49] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-01-29 05:15:49] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:49] [class-ss-page.php:119] Checking Content Identical:540e88b9fbc300054eca69e467ef67d7e5959571===. Value: FALSE
+[2025-01-29 05:15:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/role-update/
+[2025-01-29 05:15:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 27
+[2025-01-29 05:15:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9856e3a5-EdjK1D.tmp
+[2025-01-29 05:15:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/role-update/?simply_static_page=4
+[2025-01-29 05:15:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/role-update/?simply_static_page=4
+[2025-01-29 05:15:50] [class-ss-url-fetcher.php:103] Filesize: 97257 bytes
+[2025-01-29 05:15:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:15:50] [class-ss-url-fetcher.php:233] New filename for static page: /role-update/index.html
+[2025-01-29 05:15:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9856e3a5-EdjK1D.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/role-update/index.html
+[2025-01-29 05:15:51] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:51] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-01-29 05:15:51] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:51] [class-ss-page.php:119] Checking Content Identical:b479fb4862cc3110e198af3ee89cbd47e9331045===. Value: FALSE
+[2025-01-29 05:15:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/sample-page/
+[2025-01-29 05:15:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 27
+[2025-01-29 05:15:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9880aa43-tYtD8B.tmp
+[2025-01-29 05:15:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/sample-page/?simply_static_page=5
+[2025-01-29 05:15:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/sample-page/?simply_static_page=5
+[2025-01-29 05:15:54] [class-ss-url-fetcher.php:103] Filesize: 104914 bytes
+[2025-01-29 05:15:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:15:54] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2025-01-29 05:15:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9880aa43-tYtD8B.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/sample-page/index.html
+[2025-01-29 05:15:54] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:54] [class-ss-fetch-urls-task.php:158] Adding 16 URLs to the queue
+[2025-01-29 05:15:55] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:55] [class-ss-page.php:119] Checking Content Identical:38c23426452bdbb657b47195cc9813fe529fce85===. Value: FALSE
+[2025-01-29 05:15:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/view-users/
+[2025-01-29 05:15:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 27
+[2025-01-29 05:15:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b98b8cf0e-2E5IXf.tmp
+[2025-01-29 05:15:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/view-users/?simply_static_page=6
+[2025-01-29 05:15:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/view-users/?simply_static_page=6
+[2025-01-29 05:15:57] [class-ss-url-fetcher.php:103] Filesize: 97253 bytes
+[2025-01-29 05:15:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:15:57] [class-ss-url-fetcher.php:233] New filename for static page: /view-users/index.html
+[2025-01-29 05:15:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b98b8cf0e-2E5IXf.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/view-users/index.html
+[2025-01-29 05:15:57] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:57] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:58] [class-ss-page.php:119] Checking Content Identical:716b3f67c6d2a132dded6c7563e5ce09df5aeb73===. Value: FALSE
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/images/submit-spin.svg
+[2025-01-29 05:15:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 27
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b98e3fbed-jiore6.tmp
+[2025-01-29 05:15:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/images/submit-spin.svg?simply_static_page=7
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/images/submit-spin.svg?simply_static_page=7
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:103] Filesize: 509 bytes
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/images/submit-spin.svg
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b98e3fbed-jiore6.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/images/submit-spin.svg
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:58] [class-ss-page.php:119] Checking Content Identical:2efc98059ba9c28d93312c2e51f63feb76f8a3b6===. Value: FALSE
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-01-29 05:15:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 27
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b98e7efd4-uyjq1t.tmp
+[2025-01-29 05:15:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=8
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=8
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:103] Filesize: 23779 bytes
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-01-29 05:15:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b98e7efd4-uyjq1t.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:58] [class-ss-page.php:119] Checking Content Identical:734c5494a4a296f45153ef486de4dff9299c8e30===. Value: FALSE
+[2025-01-29 05:15:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-includes/js/jquery/jquery.min.js
+[2025-01-29 05:15:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 27
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b98f02a90-4GjaUi.tmp
+[2025-01-29 05:15:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-includes/js/jquery/jquery.min.js?simply_static_page=9
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-includes/js/jquery/jquery.min.js?simply_static_page=9
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b98f02a90-4GjaUi.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-includes/js/jquery/jquery.min.js
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:59] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-29 05:15:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 27
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b98f77478-Ubta9z.tmp
+[2025-01-29 05:15:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=10
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=10
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b98f77478-Ubta9z.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:59] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js
+[2025-01-29 05:15:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 27
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b98fc7fe6-0Dq1wP.tmp
+[2025-01-29 05:15:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?simply_static_page=11
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?simply_static_page=11
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:103] Filesize: 25308 bytes
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js
+[2025-01-29 05:15:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b98fc7fe6-0Dq1wP.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:15:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:15:59] [class-ss-page.php:119] Checking Content Identical:edca17b69a2c084c2abd43c7bda614dd7e04d2c6===. Value: FALSE
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js
+[2025-01-29 05:16:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 27
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b99011003-IuRZ7K.tmp
+[2025-01-29 05:16:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?simply_static_page=12
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?simply_static_page=12
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:103] Filesize: 4014 bytes
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/lib/mailcheck.min.js
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b99011003-IuRZ7K.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:00] [class-ss-page.php:119] Checking Content Identical:bba43108f022eaa28a7637c1ed7b7cb287d1691d===. Value: FALSE
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/punycode.min.js
+[2025-01-29 05:16:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 27
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9905a57d-qk2VJZ.tmp
+[2025-01-29 05:16:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/punycode.min.js?simply_static_page=13
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/lib/punycode.min.js?simply_static_page=13
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:103] Filesize: 1713 bytes
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/lib/punycode.min.js
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9905a57d-qk2VJZ.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/lib/punycode.min.js
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:00] [class-ss-page.php:119] Checking Content Identical:0dc76a6bcad4bdce1b88ec6e68215733c97fc520===. Value: FALSE
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/share/utils.min.js
+[2025-01-29 05:16:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 27
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b990966f9-XOLiog.tmp
+[2025-01-29 05:16:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/share/utils.min.js?simply_static_page=14
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/share/utils.min.js?simply_static_page=14
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:103] Filesize: 1220 bytes
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/js/share/utils.min.js
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b990966f9-XOLiog.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/js/share/utils.min.js
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:00] [class-ss-page.php:119] Checking Content Identical:1ea3dbe6177083ecd52281991680d86f49799cb5===. Value: FALSE
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js
+[2025-01-29 05:16:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 27
+[2025-01-29 05:16:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b990d8a20-bh1B0T.tmp
+[2025-01-29 05:16:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js?simply_static_page=15
+[2025-01-29 05:16:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js?simply_static_page=15
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:103] Filesize: 49346 bytes
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b990d8a20-bh1B0T.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/js/frontend/wpforms.min.js
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:01] [class-ss-page.php:119] Checking Content Identical:4faa8decb41f75eb6d06ead887a0228212294e51===. Value: FALSE
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js
+[2025-01-29 05:16:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 27
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9912781d-sEhEGi.tmp
+[2025-01-29 05:16:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js?simply_static_page=16
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js?simply_static_page=16
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:103] Filesize: 6006 bytes
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9912781d-sEhEGi.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/js/frontend/wpforms-modern.min.js
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:01] [class-ss-page.php:119] Checking Content Identical:8c5510ad6014b28d3a9d10fe4bf68cc6cb21b507===. Value: FALSE
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/feed/
+[2025-01-29 05:16:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 27
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/feed/
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/comments/feed/
+[2025-01-29 05:16:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 27
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/comments/feed/
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-01-29 05:16:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 27
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b991bfe77-sogB6y.tmp
+[2025-01-29 05:16:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=19
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=19
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:103] Filesize: 43154 bytes
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-01-29 05:16:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b991bfe77-sogB6y.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:02] [class-ss-page.php:119] Checking Content Identical:486538a3d1eba64427d3d73811a11ca2e094991e===. Value: FALSE
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-includes/css/dist/block-library/style.min.css
+[2025-01-29 05:16:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 27
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b99239971-Bluf0k.tmp
+[2025-01-29 05:16:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-includes/css/dist/block-library/style.min.css?simply_static_page=20
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-includes/css/dist/block-library/style.min.css?simply_static_page=20
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b99239971-Bluf0k.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-includes/css/dist/block-library/style.min.css
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:02] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-full.min.css
+[2025-01-29 05:16:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 27
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b99282a77-fwUZo4.tmp
+[2025-01-29 05:16:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-full.min.css?simply_static_page=21
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-full.min.css?simply_static_page=21
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:103] Filesize: 159803 bytes
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-full.min.css
+[2025-01-29 05:16:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b99282a77-fwUZo4.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-full.min.css
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:02] [class-ss-page.php:119] Checking Content Identical:5c3e40b07b0517fedb6024dbd5f0d923cbab00a0===. Value: FALSE
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-full.min.css
+[2025-01-29 05:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 27
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9931507a-mdQJ8p.tmp
+[2025-01-29 05:16:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-full.min.css?simply_static_page=22
+[2025-01-29 05:16:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-full.min.css?simply_static_page=22
+[2025-01-29 05:16:03] [class-ss-url-fetcher.php:103] Filesize: 54909 bytes
+[2025-01-29 05:16:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-29 05:16:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-full.min.css
+[2025-01-29 05:16:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9931507a-mdQJ8p.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-full.min.css
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:03] [class-ss-page.php:119] Checking Content Identical:b32f746cf0ad896449cedaf3dcf953fb1e8c95b6===. Value: FALSE
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/
+[2025-01-29 05:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 27
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/7
+[2025-01-29 05:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 27
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/7
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/xmlrpc.php
+[2025-01-29 05:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 27
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/xmlrpc.php
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/oembed/1.0/embed
+[2025-01-29 05:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 27
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/oembed/1.0/embed
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/fields/content/frontend.min.css
+[2025-01-29 05:16:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 27
+[2025-01-29 05:16:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9940536e-l3R46W.tmp
+[2025-01-29 05:16:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/fields/content/frontend.min.css?simply_static_page=27
+[2025-01-29 05:16:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/fields/content/frontend.min.css?simply_static_page=27
+[2025-01-29 05:16:04] [class-ss-url-fetcher.php:103] Filesize: 5913 bytes
+[2025-01-29 05:16:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-29 05:16:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/pro/css/fields/content/frontend.min.css
+[2025-01-29 05:16:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9940536e-l3R46W.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/pro/css/fields/content/frontend.min.css
+[2025-01-29 05:16:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:04] [class-ss-page.php:119] Checking Content Identical:4c0e21cb52d35893a91f38003f086ac9df12d3a9===. Value: FALSE
+[2025-01-29 05:16:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 27 pages/files
+[2025-01-29 05:16:04] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-29 05:16:06] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-29 05:16:06] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 9
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final
+[2025-01-29 05:16:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 36
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9964b103-ag3wgp.tmp
+[2025-01-29 05:16:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final?simply_static_page=28
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final?simply_static_page=28
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:103] Filesize: 361 bytes
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/cool-kid-final/
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:212] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/10
+[2025-01-29 05:16:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 36
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/10
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/12
+[2025-01-29 05:16:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 36
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/12
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/39
+[2025-01-29 05:16:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 36
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/39
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/category/uncategorized/
+[2025-01-29 05:16:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 36
+[2025-01-29 05:16:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b996e04df-w36EAi.tmp
+[2025-01-29 05:16:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/category/uncategorized/?simply_static_page=32
+[2025-01-29 05:16:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/category/uncategorized/?simply_static_page=32
+[2025-01-29 05:16:08] [class-ss-url-fetcher.php:103] Filesize: 105413 bytes
+[2025-01-29 05:16:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:16:08] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2025-01-29 05:16:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b996e04df-w36EAi.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/category/uncategorized/index.html
+[2025-01-29 05:16:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:09] [class-ss-fetch-urls-task.php:158] Adding 18 URLs to the queue
+[2025-01-29 05:16:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:09] [class-ss-page.php:119] Checking Content Identical:b4b6662df57a9f393847471baba732ebf601909f===. Value: FALSE
+[2025-01-29 05:16:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/hello-world/
+[2025-01-29 05:16:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 36
+[2025-01-29 05:16:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b999dc40c-aXGmxe.tmp
+[2025-01-29 05:16:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/hello-world/?simply_static_page=33
+[2025-01-29 05:16:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/hello-world/?simply_static_page=33
+[2025-01-29 05:16:11] [class-ss-url-fetcher.php:103] Filesize: 112187 bytes
+[2025-01-29 05:16:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:16:11] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/index.html
+[2025-01-29 05:16:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b999dc40c-aXGmxe.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/hello-world/index.html
+[2025-01-29 05:16:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:12] [class-ss-fetch-urls-task.php:158] Adding 19 URLs to the queue
+[2025-01-29 05:16:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:13] [class-ss-page.php:119] Checking Content Identical:80602e7e45feba8f3cb76c687ff48ae5a5225834===. Value: FALSE
+[2025-01-29 05:16:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/author/falcon_coder04/
+[2025-01-29 05:16:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 36
+[2025-01-29 05:16:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b99dd99fa-AYNPhX.tmp
+[2025-01-29 05:16:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/author/falcon_coder04/?simply_static_page=34
+[2025-01-29 05:16:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/author/falcon_coder04/?simply_static_page=34
+[2025-01-29 05:16:15] [class-ss-url-fetcher.php:103] Filesize: 106214 bytes
+[2025-01-29 05:16:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-29 05:16:17] [class-ss-url-fetcher.php:233] New filename for static page: /author/falcon_coder04/index.html
+[2025-01-29 05:16:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b99dd99fa-AYNPhX.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/author/falcon_coder04/index.html
+[2025-01-29 05:16:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:158] Adding 18 URLs to the queue
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:18] [class-ss-page.php:119] Checking Content Identical:adab889f8c7e387a4cb1d4f850648248faad3b6e===. Value: FALSE
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/29
+[2025-01-29 05:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 36
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/pages/29
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/images/times-solid-white.svg
+[2025-01-29 05:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9a2708bd-7ujApr.tmp
+[2025-01-29 05:16:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/images/times-solid-white.svg?simply_static_page=36
+[2025-01-29 05:16:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-content/plugins/wpforms/assets/pro/images/times-solid-white.svg?simply_static_page=36
+[2025-01-29 05:16:18] [class-ss-url-fetcher.php:103] Filesize: 602 bytes
+[2025-01-29 05:16:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-01-29 05:16:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wpforms/assets/pro/images/times-solid-white.svg
+[2025-01-29 05:16:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9a2708bd-7ujApr.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-content/plugins/wpforms/assets/pro/images/times-solid-white.svg
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:18] [class-ss-page.php:119] Checking Content Identical:321e45663d0db65495e80a3b38393256d76986a4===. Value: FALSE
+[2025-01-29 05:16:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 27 of 36 pages/files
+[2025-01-29 05:16:18] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-29 05:16:18] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-29 05:16:18] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 7
+[2025-01-29 05:16:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/category/uncategorized/feed/
+[2025-01-29 05:16:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 43
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/category/uncategorized/feed/
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/categories/1
+[2025-01-29 05:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 43
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/categories/1
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-includes/js/comment-reply.min.js
+[2025-01-29 05:16:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 43
+[2025-01-29 05:16:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-29 05:16:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/6799b9a36ba31-ufYHQo.tmp
+[2025-01-29 05:16:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/cool-kid-final/wp-includes/js/comment-reply.min.js?simply_static_page=39
+[2025-01-29 05:16:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/cool-kid-final/wp-includes/js/comment-reply.min.js?simply_static_page=39
+[2025-01-29 05:16:19] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-01-29 05:16:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-29 05:16:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2025-01-29 05:16:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/6799b9a36ba31-ufYHQo.tmp to C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731/wp-includes/js/comment-reply.min.js
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-29 05:16:20] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/hello-world/feed/
+[2025-01-29 05:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 43
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/hello-world/feed/
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/posts/1
+[2025-01-29 05:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 43
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/posts/1
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/author/falcon_coder04/feed/
+[2025-01-29 05:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 43
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/author/falcon_coder04/feed/
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/cool-kid-final/wp-json/wp/v2/users/1
+[2025-01-29 05:16:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 43
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/cool-kid-final/wp-json/wp/v2/users/1
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-29 05:16:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 36 of 43 pages/files
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-29 05:16:20] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 0
+[2025-01-29 05:16:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 43 of 43 pages/files
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-01-29 05:16:20] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-01-29 05:16:20] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/
+[2025-01-29 05:16:20] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/
+[2025-01-29 05:16:20] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/login
+[2025-01-29 05:16:20] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/login
+[2025-01-29 05:16:20] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/profile
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/profile
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/role-update
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/role-update
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/sample-page
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/sample-page
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/view-users
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/view-users
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/images
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/images
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/themes/astra/assets/js/minified
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/themes/astra/assets/js/minified
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-includes/js/jquery
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-includes/js/jquery
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-includes/js/jquery
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-includes/js/jquery
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/lib
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/lib
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/lib
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/lib
+[2025-01-29 05:16:21] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/lib
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/lib
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/js/share
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/js/share
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/js/frontend
+[2025-01-29 05:16:22] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/themes/astra/assets/css/minified
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/themes/astra/assets/css/minified
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-includes/css/dist/block-library
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-includes/css/dist/block-library
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/css/frontend/modern
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/css/frontend/modern
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/frontend/modern
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/frontend/modern
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/fields/content
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/pro/css/fields/content
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/category/uncategorized
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/category/uncategorized
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/hello-world
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/hello-world
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/author/falcon_coder04
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/author/falcon_coder04
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/pro/images
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-content/plugins/wpforms/assets/pro/images
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:115] Trying to transfer: C:/xampp/htdocs/cool-kid-final/wp-includes/js
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/cool-kid-final/wp-includes/js
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:26. Processed Pages: 26
+[2025-01-29 05:16:23] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 26 of 26 files
+[2025-01-29 05:16:23] [trait-can-process-pages.php:112] Total pages: 26; Pages remaining: 0
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:198] Transferring 404 Page
+[2025-01-29 05:16:23] [class-ss-transfer-files-locally-task.php:201] No 404 Page found at C:\xampp\htdocs\cool-kid-final/wp-content/uploads\simply-static\temp-files/simply-static-1-1738127731\404\index.html
+[2025-01-29 05:16:23] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://silva22.github.io/cool-kid-final/" target="_blank">https://silva22.github.io/cool-kid-final/</a>
+[2025-01-29 05:16:23] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-01-29 05:16:24] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-01-29 05:16:24] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-01-29 05:16:24] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-01-29 05:16:24] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-01-29 05:16:24] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-01-29 05:16:24] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-01-29 05:16:24] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:53
